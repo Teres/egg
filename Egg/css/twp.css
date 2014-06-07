@@ -1,0 +1,51 @@
+/*banner*/
+.baner{height:347px;margin-top:50px;background-image:url("../images/banner.jpg");}
+.baner .lis{margin-left:800px;margin-top:90px;}
+
+/*邀请注册*/
+.Football{height:113px;margin-right:230px;background:url("../images/Football.jpg") no-repeat 0 0;}
+.Football li{float:left;font-size:20px;font-weight:bold;border:1px solid #fff;/*dfcc41*/background-color:#fff;margin-right:150px;border-radius:10px;margin-top:113px;}
+
+/*投票*/
+.scoretb{margin-bottom: 50px;}
+.scoretb .sco{margin-bottom: 30px;width:823px;height:43px;line-height:43px;border:1px solid #babbbf;background-color:#babbbf;margin-top:45px;font-size:13px;color:#fff;margin-left:95px;}
+.scoretb .sco > li{float:left;margin-left:100px;}
+.scoretb .sco .but1{margin-top:7px;}
+.mhead {margin-left: 115px;}
+.mhead {text-align: center;}
+.mhead li{float: left;width: 172px;margin-right: 33px;line-height: 32px;font-size: 25px;font-weight: lighter;margin-right: 30px;border: 1px solid #acd3a4;;background-color: #90c484;}
+.mmiddle{padding-top: 34px;margin-left: 115px;}
+.mmiddle li{float: left;width: 172px;margin-right: 33px;}
+.mmdel li{text-align: center;}
+.mmiddle span{display: block;float: left;width: 83px;height:43px;line-height: 43px;border: 1px solid #eeede9;font-size: 40px;text-align: center;}
+.mtail{margin-left: 115px;}
+.mtail li{float: left;width: 172px;margin-right: 30px;border: 1px solid #eeede9;text-align: center;}
+.mtail span{line-height: 32px;font-size: 20px;text-align: center;}
+.cl{float: right;margin-right: 10px;}
+
+.scoretb .butvs{width: 410px;height: 115px;margin-left: 300px;margin-top: 52px;}
+.vsmen {margin-left: -595px;margin-top:-115px }
+.vsmen li{float: left;margin-left: 550px;padding-left: 96px;}
+.vcountry img{width: 86px;height: 142px; margin-left: 26px;margin-top: 6px;}
+.vcountry li{float: left;width: 135px;height: 193px;margin-left: 200px;border: 1px solid #d4cfcc;background-color:  #d4cfcc;}
+.vcountry {position: absolute;margin-left: 50px;}
+.vcountry span{ display: block;  font-weight: bold;font-size: 28px;text-align: center;margin-left: 10px; background-color: #fff; border-radius: 10px;border: 1px solid #fff;width: 114px; height: 33px; line-height: 33px;}
+.vcountry span >b{color:#f6961d; }
+/* 活动奖品 */
+.prizes{margin-top: 80px;}
+.but7{position: absolute;margin-top: -79px;margin-left: 440px;}
+.prizes .but2{margin-left:400px;}
+.prizes .but3{margin-top: 50px;position: absolute;margin-left: -558px;}
+.prizes .but4{margin-top: 50px;position: absolute;margin-left: -498px;}
+.prizes ul{position:inherit;margin-left:115px;margin-top:30px;}
+.prizes .priz1>li{border:1px solid #c8c9c4;width:182px;height:210px;float:left;border-radius:10px;margin-left:10px;}
+.prizes span{display:block;position:absolute;border:1px solid #dfcc41;width:33px;height:27px;line-height:27px;float:left;margin-left:140px;margin-top:182px;background-color:#dfcc41;color:#fff;text-align:center;font-size:15px;}
+.prizes p{margin-left:125px;margin-top:242px;color:#000;}
+
+/*活动规则*/
+.rule{height: 347px;background: url("../images/rule.jpg") no-repeat 0 0;}
+
+/*系列活动*/
+.relevant p{height:72px;font-size:0;margin-left:326px;background:url("../images/xile.jpg") no-repeat 0 0;}
+.relevant ul{margin-left:110px;}
+.relevant li{width:225px;height:225px;line-height:225px;border:1px solid #e0e0e2;float:left;margin-right:40px;text-align:center;}
