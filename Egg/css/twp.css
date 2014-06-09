@@ -32,8 +32,8 @@
 .vcountry span{ display: block;  font-weight: bold;font-size: 28px;text-align: center;margin-left: 10px; background-color: #fff; border-radius: 10px;border: 1px solid #fff;width: 114px; height: 33px; line-height: 33px;}
 .vcountry span >b{color:#f6961d; }
 /* 活动奖品 */
-.prizes{margin-top: 80px;}
-.but7{position: absolute;margin-top: -79px;margin-left: 440px;}
+
+.but7{margin-top: -15px;}
 .prizes .but2{margin-left:400px;}
 .prizes .but3{margin-top: 50px;position: absolute;margin-left: -558px;}
 .prizes .but4{margin-top: 50px;position: absolute;margin-left: -498px;}
