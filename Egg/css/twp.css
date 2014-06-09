@@ -1,13 +1,13 @@
 /*banner*/
-.baner{height:347px;margin-top:50px;background-image:url("../images/banner.jpg");}
-.baner .lis{margin-left:800px;margin-top:90px;}
+.baner{height:347px;background-image:url("../images/banner.jpg");margin-top: 50px;}
+.baner .lis{margin-left:800px;padding-top: 90px;}
 
 /*邀请注册*/
-.Football{height:113px;margin-right:230px;background:url("../images/Football.jpg") no-repeat 0 0;}
+.Football{height:160px;background:url("../images/Football.jpg") no-repeat 0 0;float: right;}
 .Football li{float:left;font-size:20px;font-weight:bold;border:1px solid #fff;/*dfcc41*/background-color:#fff;margin-right:150px;border-radius:10px;margin-top:113px;}
 
 /*投票*/
-.scoretb{margin-bottom: 50px;}
+.scoretb{margin-bottom: 50px;clear: both;}
 .scoretb .sco{margin-bottom: 30px;width:823px;height:43px;line-height:43px;border:1px solid #babbbf;background-color:#babbbf;margin-top:45px;font-size:13px;color:#fff;margin-left:95px;}
 .scoretb .sco > li{float:left;margin-left:100px;}
 .scoretb .sco .but1{margin-top:7px;}
@@ -49,3 +49,16 @@
 .relevant p{height:72px;font-size:0;margin-left:326px;background:url("../images/xile.jpg") no-repeat 0 0;}
 .relevant ul{margin-left:110px;}
 .relevant li{width:225px;height:225px;line-height:225px;border:1px solid #e0e0e2;float:left;margin-right:40px;text-align:center;}
+.event1-widget a{display:block;width:113px;padding:6px 0;font-size:14px;}
+
+.event1-widget{
+	background:url("../images/sbar.png") no-repeat top center;
+	position:fixed;
+	left:50%;
+	top:35%;
+	margin-left:510px;
+	width:220px;
+	padding:310px 0 0 0;
+	text-align: center;
+	background-size: 210px 475px;
+}
