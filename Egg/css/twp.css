@@ -30,7 +30,6 @@
   width: 605px;
   padding-top: 116px;
   padding-left: 24px;
-  border: 1px solid #f00;
   margin: 0px auto;
 }
 .football ul{
@@ -45,8 +44,30 @@
   text-align: left;
 }
 
+
 /*投票*/
-.scoretb{margin-bottom: 50px;clear: both;}
+.scoretb{
+  background-color:#babbbf;
+  height: 43px;
+}
+.scoretb li{
+  float: left;
+  margin-right: 100px;
+}
+.scoretb select{
+  display: inline-block;
+  width: 118px; 
+  height: 30px;
+  float: right;
+  margin-right: 60px;
+  margin-top: 7px;
+  border: none;
+  padding-left: 13px;
+  background: url('../images/but1.jpg') no-repeat 0px 0px;
+}
+
+
+/*.scoretb{margin-bottom: 50px;clear: both;}
 .scoretb .sco{margin-bottom: 30px;width:823px;height:43px;line-height:43px;border:1px solid #babbbf;background-color:#babbbf;margin-top:45px;font-size:13px;color:#fff;margin-left:95px;}
 .scoretb .sco > li{float:left;margin-left:100px;}
 .scoretb .sco .but1{margin-top:7px;}
@@ -69,7 +90,7 @@
 .vcountry li{float: left;width: 135px;height: 193px;margin-left: 200px;border: 1px solid #d4cfcc;background-color:  #d4cfcc;}
 .vcountry {position: absolute;margin-left: 50px;}
 .vcountry span{ display: block;  font-weight: bold;font-size: 28px;text-align: center;margin-left: 10px; background-color: #fff; border-radius: 10px;border: 1px solid #fff;width: 114px; height: 33px; line-height: 33px;}
-.vcountry span >b{color:#f6961d; }
+.vcountry span >b{color:#f6961d; }*/
 /* 活动奖品 */
 
 .but7{margin-top: -15px;}
