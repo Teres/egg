@@ -1,10 +1,49 @@
 /*banner*/
-.baner{height:347px;background-image:url("../images/banner.jpg");margin-top: 50px;}
-.baner .lis{margin-left:800px;padding-top: 90px;}
+.fifa-banner{
+  height:347px;
+  background-image:url("../images/banner.jpg");margin-top: 50px;
+  position: relative;
+}
+.fifa-banner ul{
+  width: 127px;
+  height: 160px;
+  overflow: hidden;
+  position: absolute;
+  left: 785px;
+  top: 100px;
+}
+.fifa-banner li{
+  height: 16px;
+  overflow: hidden;
+}
+.fifa-banner span{
+  width: 40px;
+  text-align: left;
+  display: inline-block;
+}
+
 
 /*邀请注册*/
-.Football{height:160px;background:url("../images/Football.jpg") no-repeat 0 0;float: right;}
-.Football li{float:left;font-size:20px;font-weight:bold;border:1px solid #fff;/*dfcc41*/background-color:#fff;margin-right:150px;border-radius:10px;margin-top:113px;}
+.football{
+  height: 26px;
+  background:url("../images/football.jpg") no-repeat 0px 0px;
+  width: 605px;
+  padding-top: 116px;
+  padding-left: 24px;
+  border: 1px solid #f00;
+  margin: 0px auto;
+}
+.football ul{
+  margin-right: -90px;
+}
+.football li{
+  float: left;
+  font-size: 18px;
+  width: 110px;
+  margin-right: 120px;
+  font-weight: bold;
+  text-align: left;
+}
 
 /*投票*/
 .scoretb{margin-bottom: 50px;clear: both;}
