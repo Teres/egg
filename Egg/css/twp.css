@@ -38,8 +38,8 @@
 .football li{
   float: left;
   font-size: 18px;
-  width: 110px;
-  margin-right: 120px;
+  width: 120px;
+  margin-right: 110px;
   font-weight: bold;
   text-align: left;
 }
@@ -49,10 +49,20 @@
 .scoretb{
   background-color:#babbbf;
   height: 43px;
+  width: 822px;
+  /*padding-left: 72px;*/
+  margin: 20px auto 30px auto;
+}
+.scoretb ul{
+  margin-left: 45px;
 }
 .scoretb li{
   float: left;
+  line-height: 43px;
   margin-right: 100px;
+}
+.scoretb span{
+  color: #fff;
 }
 .scoretb select{
   display: inline-block;
@@ -66,49 +76,112 @@
   background: url('../images/but1.jpg') no-repeat 0px 0px;
 }
 
+/*比分*/
+.bifen{
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  padding-left: 30px;
+}
+.bifen div{
+  width: 174px;
+  height: 107px;
+  background-color: #efedea;
+  display: inline-block;
+  margin-right: 30px;
+}
+.bifen p{
+  height: 32px;
+  line-height: 32px;
+}
+.bifen span{
+  width: 83px;
+  display: inline-block;
+  cursor: pointer;
+}
+.bifen p.normal{
+  background-color: #94cb88;
+}
+.bifen p.end{
+  background-color: #e8d33a;
+}
+.bifen p.middle{
+  height: 44px;
+  line-height: 44px;
+}
+.bifen p.middle span{
+  background-color: #fff;
+  margin: 0px 1px;
+}
+/*vs*/
+.vs{
+  background: url('../images/vs.png') no-repeat 0px 0px;
+  height: 271px;
+  margin: 48px 0px 0px 9px;
+  position: relative;
+}
+.people, .flag{
+  position: absolute;
+}
+.people{
+  top: 4px;
+ 
+}
+.people img{
+   width: 137px;
+  height: 192px;
+}
+.flag{
+  top: 11px;
+  width: 114px;
+  height: 185px;
+  text-align: center;
+ 
+}
+.flag img{
+  width: 86px;
+  height: 142px;
+}
+.people.home{
+  left: 100px;
+}
+.people.away{
+  right: 100px;
+}
+.flag.home{
+  left: 315px;
+}
+.flag.away{
+  right: 289px;
+}
 
-/*.scoretb{margin-bottom: 50px;clear: both;}
-.scoretb .sco{margin-bottom: 30px;width:823px;height:43px;line-height:43px;border:1px solid #babbbf;background-color:#babbbf;margin-top:45px;font-size:13px;color:#fff;margin-left:95px;}
-.scoretb .sco > li{float:left;margin-left:100px;}
-.scoretb .sco .but1{margin-top:7px;}
-.mhead {margin-left: 115px;}
-.mhead {text-align: center;}
-.mhead li{float: left;width: 172px;margin-right: 33px;line-height: 32px;font-size: 25px;font-weight: lighter;margin-right: 30px;border: 1px solid #acd3a4;;background-color: #90c484;}
-.mmiddle{padding-top: 34px;margin-left: 115px;}
-.mmiddle li{float: left;width: 172px;margin-right: 33px;}
-.mmdel li{text-align: center;}
-.mmiddle span{display: block;float: left;width: 83px;height:43px;line-height: 43px;border: 1px solid #eeede9;font-size: 40px;text-align: center;}
-.mtail{margin-left: 115px;}
-.mtail li{float: left;width: 172px;margin-right: 30px;border: 1px solid #eeede9;text-align: center;}
-.mtail span{line-height: 32px;font-size: 20px;text-align: center;}
-.cl{float: right;margin-right: 10px;}
-
-.scoretb .butvs{width: 410px;height: 115px;margin-left: 300px;margin-top: 52px;}
-.vsmen {margin-left: -595px;margin-top:-115px }
-.vsmen li{float: left;margin-left: 550px;padding-left: 96px;}
-.vcountry img{width: 86px;height: 142px; margin-left: 26px;margin-top: 6px;}
-.vcountry li{float: left;width: 135px;height: 193px;margin-left: 200px;border: 1px solid #d4cfcc;background-color:  #d4cfcc;}
-.vcountry {position: absolute;margin-left: 50px;}
-.vcountry span{ display: block;  font-weight: bold;font-size: 28px;text-align: center;margin-left: 10px; background-color: #fff; border-radius: 10px;border: 1px solid #fff;width: 114px; height: 33px; line-height: 33px;}
-.vcountry span >b{color:#f6961d; }*/
 /* 活动奖品 */
+.jiang,.rule{
+  display: block;
+  margin: 0 auto;
+}
+.jiang{
+  margin-top: 15px;
+}
 
-.but7{margin-top: -15px;}
-.prizes .but2{margin-left:400px;}
-.prizes .but3{margin-top: 50px;position: absolute;margin-left: -558px;}
-.prizes .but4{margin-top: 50px;position: absolute;margin-left: -498px;}
-.prizes ul{position:inherit;margin-left:115px;margin-top:30px;}
-.prizes .priz1>li{border:1px solid #c8c9c4;width:182px;height:210px;float:left;border-radius:10px;margin-left:10px;}
-.prizes span{display:block;position:absolute;border:1px solid #dfcc41;width:33px;height:27px;line-height:27px;float:left;margin-left:140px;margin-top:182px;background-color:#dfcc41;color:#fff;text-align:center;font-size:15px;}
-.prizes p{margin-left:125px;margin-top:242px;color:#000;}
-
-/*活动规则*/
-.rule{height: 347px;background: url("../images/rule.jpg") no-repeat 0 0;}
 
 /*系列活动*/
-.relevant p{height:72px;font-size:0;margin-left:326px;background:url("../images/xile.jpg") no-repeat 0 0;}
-.relevant ul{margin-left:110px;}
-.relevant li{width:225px;height:225px;line-height:225px;border:1px solid #e0e0e2;float:left;margin-right:40px;text-align:center;}
+.event{
+  display: block;
+  padding-top: 75px;
+  text-align: center;
+  background: url('../images/xile.jpg') no-repeat center top;
+}
+.event li{
+  display: inline-block;
+  margin-right: 40px;
+}
+.event img{
+  width: 230px;
+  height: 223px;
+  border: 1px solid #cdcbc8;
+}
+
 .event1-widget a{display:block;width:113px;padding:6px 0;font-size:14px;}
 
 .event1-widget{
